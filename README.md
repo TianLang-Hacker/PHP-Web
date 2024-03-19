@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fa8bc82d97748460154045d5771dd6e7b588554a
 # PHP-Web
 =======
 # Python-Web
@@ -41,7 +37,3 @@ Django Template
 ```bash
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/Django
 ```
-<<<<<<< HEAD
->>>>>>> 7886ff11c642573f31eb5cb24748e88308adc8cd
-=======
->>>>>>> fa8bc82d97748460154045d5771dd6e7b588554a
