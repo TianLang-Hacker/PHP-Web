@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>互联网违法和不良信息实名举报平台</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body style="background-image: url(img/background.jpeg);background-color: rgba(255, 255, 255, 0.5); ">
+		<h1 align="center">互联网违法和不良信息实名举报平台</h1>
+		<form method="post" action="index.php" enctype="multipart/form-data">
+			<ul>
+				<!-- 单行文本输入框 -->
+				<li>
+					<label>姓名：</label>
+					<input class="right" type="text" name="xingming" maxlength="6">
+				</li>
+
+				<li>
+					<label>出生日期：</label>
+					<input class="right" name="birthday" type="date">
+				</li>
+
+				<li>
+					<label>性别：</label>
+					<div class="right">
+						<input type="radio" name="sex" value="男" />
+						<label>男</label>
+						<input type="radio" name="sex" value="女" />
+						<label>女</label>
+					</div>
+				</li>
+
+				<li>
+					<label>身份证号：</label>
+					<div class="right">
+						<input type="text" name="idcard" />
+					</div>
+				</li>
+
+				<li>
+					<label>手机号码：</label>
+					<div class="right">
+						<input type="text" name="tel" />
+					</div>
+				</li>
+
+				<li>
+					<label>互联网违法和不良信息类型（可多选）</label>
+					<div class="left" id="dis">
+						<input name="leixing[]" value="类型1" type="checkbox" />
+						危害国家安全、荣誉和利益<br>
+						<input name="leixing[]" value="类型2" type="checkbox" />
+						煽动颠覆国家政权，推翻社会主义制度的<br>
+						<input name="leixing[]" value="类型3" type="checkbox" />
+						煽动分裂国家、破坏国家统一<br>
+						<input name="leixing[]" value="类型4" type="checkbox" />
+						宣扬恐怖主义、极端主义<br>
+						<input name="leixing[]" value="类型5" type="checkbox" />
+						宣扬民族仇恨、民族歧视的<br>
+						<input name="leixing[]" value="类型6" type="checkbox" />
+						传播暴力信息<br>
+						<input name="leixing[]" value="类型1" type="checkbox" />
+						编造、传播虚假信息扰乱经济秩序和社会秩序<br>
+						<input name="leixing[]" value="类型1" type="checkbox" />
+						侵害他人名誉、隐私等合法权益<br>
+						<input name="leixing[]" value="类型1" type="checkbox" />
+						互联网相关法律法规禁止的其他<br>
+					</div>
+				</li>
+
+				<li>
+					<label>上传截图：</label>
+					<input class="left" name="file" type="file" />
+				</li>
+				<li>
+					<label>访问信息（请填写不良信息访问方式和地址）：</label>
+					<textarea name="fangwen" cols="30" rows="10"></textarea>
+				</li>
+
+				<li class="footer" style="margin-left: 150px;">
+					<input type="submit" name="submit" />
+				</li>
+			</ul>
+		</form>
+		
+		
+		
+		
+		<div class="copyright">	
+  	    Copyright © 版权所有 6
+		</div>
+	</body>
+</html>
